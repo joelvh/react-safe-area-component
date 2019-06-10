@@ -1,0 +1,14 @@
+{
+  "name": "react-safe-area-inset",
+  "version": "1.0.0",
+  "description": "Add safe-area-inset padding to accommodate \"the notch\" on iPhone X.",
+  "main": "index.js",
+  "repository": "https://www.github.com/joelvh/react-safe-area-inset",
+  "author": "Joel Van Horn",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2"
+  }
+}
