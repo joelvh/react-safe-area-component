@@ -18,7 +18,7 @@ In your react app, you can use the `SafeArea` component to render a div element 
 
 ```es6
 import React from 'react'
-import SafeArea from 'react-safe-area-inset'
+import SafeArea from 'react-safe-area-component'
 
 function MyComponent (props) {
   return <>
@@ -33,7 +33,7 @@ function MyComponent (props) {
 
 ```es6
 import React from 'react'
-import SafeArea from 'react-safe-area-inset'
+import SafeArea from 'react-safe-area-component'
 
 function MyComponent (props) {
   return (
@@ -54,7 +54,7 @@ The `SafeArea` adds spacing on the sides you specify only when needed. You can s
 
 ```es6
 import React from 'react'
-import SafeArea from 'react-safe-area-inset'
+import SafeArea from 'react-safe-area-component'
 
 function MyComponent (props) {
   return (
@@ -71,7 +71,7 @@ If you have a particular way that you are styling your app, you can specify how 
 
 ```es6
 import React from 'react'
-import SafeArea from 'react-safe-area-inset'
+import SafeArea from 'react-safe-area-component'
 
 // This example simply adds the `style` prop to all render props
 const applyStyles = ({
