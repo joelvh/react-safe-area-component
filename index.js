@@ -46,7 +46,7 @@ function capitalize (s) {
 const SIDES = ['left', 'right', 'top', 'bottom']
 
 function SafeArea (props) {
-  const { component: Component, applyStyles, left, right, top, bottom, ...rest } = props
+  const { children, component, applyStyles, left, right, top, bottom, ...rest } = props
   let componentProps = rest
 
   if (iOS()) {
@@ -70,9 +70,7 @@ function SafeArea (props) {
     })
   }
 
-  return (
-    <Component {...componentProps} />
-  )
+  return React.createElement(component, componentProps, ...children)
 }
 
 SafeArea.propTypes = {
