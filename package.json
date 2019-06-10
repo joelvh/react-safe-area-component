@@ -1,6 +1,6 @@
 {
   "name": "react-safe-area-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Add safe-area-inset CSS padding to accommodate \"the notch\" on iPhone X.",
   "main": "index.js",
   "repository": "https://www.github.com/joelvh/react-safe-area-component",
