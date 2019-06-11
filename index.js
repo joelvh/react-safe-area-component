@@ -70,7 +70,7 @@ function SafeArea (props) {
     })
   }
 
-  return React.createElement(component, componentProps, ...children)
+  return React.createElement(component, componentProps, children)
 }
 
 SafeArea.propTypes = {
