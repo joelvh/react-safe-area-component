@@ -51,7 +51,7 @@ function SafeArea (props) {
 
   if (iOS()) {
     const sides = SIDES.filter(side => (
-      this.props[side] && (
+      props[side] && (
         (side === 'bottom') ||
         (side === 'top' && !isCriOS()) ||
         (side === notchPosition())
