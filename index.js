@@ -62,7 +62,7 @@ function SafeArea (props) {
       sides,
       styles: sides.reduce(
         (styles, side) => {
-          styles[`padding${capitalize(side)}`] = `env(safe-area-inset-${side})`
+          styles[`padding${capitalize(side)}`] = `max(env(safe-area-inset-${side}), var(--safe-area-inset-${side}))`
           return styles
         }, {}
       ),
